@@ -1,0 +1,30 @@
+/* src/IVFCalendar.css */
+.calendar-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.calendar-day {
+  background-color: #f0f8ff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.calendar-day h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.calendar-day p {
+  margin: 5px 0 0;
+}
