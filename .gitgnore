@@ -1,0 +1,12 @@
+
+### 3. **`.gitignore`**
+
+The `.gitignore` file specifies which files and directories Git should ignore. For a React project, common entries include:
+
+**Example `.gitignore`:**
+```gitignore
+node_modules/
+build/
+*.log
+*.env
+.DS_Store
